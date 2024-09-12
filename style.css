@@ -44,6 +44,7 @@ h1{
 a:hover{
     transform: scale(1.1);
     transition: .3s ease all;
+    background: rebeccapurple;
 }
 
 /* Profile */
@@ -66,12 +67,13 @@ a:hover{
 
 /* Sobre mim */
 #sobre{
+    margin-top: 15px;
     border: 1px solid red;
     text-align: center;
 }
 #sobre p{
     margin: 0 auto;
-    padding: 30px;
+    padding: 18px;
     font-size: 18px;
     text-align: left;
     letter-spacing: 2px;
@@ -81,6 +83,7 @@ a:hover{
 
 /* Habilidades */
 #habilidades{
+    margin-top: 15px;
     border: 1px solid red;
     text-align: center;
 }
@@ -99,10 +102,10 @@ li:hover{
 
 /* Projetos */
 #projetos h1{
-    margin-top: 20px;
     text-align: center;
 }
 #projetos{
+    margin-top: 15px;
     border: 1px solid red;
     text-align: center;
 }
@@ -110,7 +113,7 @@ li:hover{
     display: inline-block;
     border: 1px solid white;
     padding: 18px;
-    margin: 10px;
+    margin: 15px;
     text-align: center;
 }
 #box h2{
@@ -125,9 +128,15 @@ li:hover{
     color: white;
     font-size: 12px;
 }
-#box:hover{
+#box a:hover{
     transform: scale(1.1);
     transition: .3s ease all;
+    padding: 5px;
+    font-size: 13px;
+    background: rgb(0, 0, 0);
+    border-radius: 90%;
+}
+#box:hover{
     background: rebeccapurple;
 }
 
