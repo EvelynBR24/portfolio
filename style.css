@@ -18,7 +18,7 @@ h1{
 
 #container{
     width: 100%;
-    max-width: 900px;
+    max-width: 800px;
     margin: 15px auto;
     padding: 0 24px;
 }
@@ -27,10 +27,11 @@ h1{
 #top{
     display: flex;
     padding: 10px;
+    width: 100%;
     border: 1px solid red;
 }
 #top a{
-    display: flex;
+    display: inline;
     font-weight: 600;
     font-size: 15px;
     color: white;
@@ -112,8 +113,8 @@ li:hover{
 #box{
     display: inline-block;
     border: 1px solid white;
-    padding: 18px;
-    margin: 15px;
+    padding: 14px;
+    margin: 10px;
     text-align: center;
 }
 #box h2{
@@ -126,7 +127,7 @@ li:hover{
 #box a{
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
 }
 #box a:hover{
     transform: scale(1.1);
