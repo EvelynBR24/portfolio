@@ -182,27 +182,26 @@ footer{
     h1{
         font-size: 14px;
     }
-
     #top{
         display: none;
     }
-
+    #profile{
+        margin-top: 5px;
+        padding: 10px;
+    }
     #profile img{
         width: 100px;
     }
-
     #sobre p{
         font-size: 12px;
         letter-spacing: 1px;
         line-height: 18px;
     }
-
     #habilidades li{
         font-size: 12px;
         letter-spacing: 1px;
         margin: 2px;
     }
-
     #box{
         margin: 2px;
     }
@@ -216,15 +215,12 @@ footer{
         border: 1px solid #9400D3;
         font-size: 8px;
     }
-
     #contatos p{
         font-size: 11px;
     }
-    
     #social{
         font-size: 18px;
     }
-
     footer{
         font-size: 9px;
         letter-spacing: 2px;
@@ -236,11 +232,13 @@ footer{
     h1{
         font-size: 14px;
     }
-
     #top {
         display: none;
     }
-
+    #profile{
+        margin-top: 5px;
+        padding: 10px;
+    }
     #profile img{
         width: 90px;
         border: 2px solid #A020F0;
@@ -248,20 +246,17 @@ footer{
     #profile p{
         font-size: 11px;
     }
-
     #sobre p{
         font-size: 11px;
         line-height: 15px;
         font-weight: normal;
     }
-
     #habilidades li{
         padding: 5px;
         font-size: 11px;
         letter-spacing: 1px;
         margin: 2px;
     }
-
     #box{
         margin: 2px;
         padding: 5px;
@@ -270,15 +265,12 @@ footer{
         font-size: 11px;
         font-weight: 200;
     }
-
     #contatos p{
         font-size: 11px;
     }
-    
     #social{
         font-size: 18px;
     }
-
     footer{
         font-size: 10px;
         font-weight: normal;
@@ -289,29 +281,28 @@ footer{
     h1{
         font-size: 12px;
     }
-
     #top{
         display: none;
     }
-
+    #profile{
+        margin-top: 5px;
+        padding: 10px;
+    }
     #profile img{
         width: 85px;
         border: 2px solid #A020F0;
     }
-
     #sobre p{
         font-size: 11px;
         line-height: 15px;
         font-weight: normal;
     }
-
     #habilidades li{
         padding: 3px;
         font-size: 10px;
         letter-spacing: 1px;
         margin: 1px;
     }
-
     #box{
         margin: 2px;
         padding: 2px;
@@ -324,15 +315,12 @@ footer{
         font-size: 7px;
         letter-spacing: 1px;
     }
-
     #contatos p{
         font-size: 9px;
     }
-    
     #social{
         font-size: 17px;
     }
-
     footer{
         font-size: 8px;
         font-weight: normal;
