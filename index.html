@@ -3,24 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/styles/style.css">
         <title>Portfólio</title>
     </head>
     <body>
-         <div id="container">
-            <div id="top">
+        <div id="container">
+            <section class="top">
                 <a href="#sobre">SOBRE</a>
-                <a href="#habilidades">HABILIDADES</a>
+                <a href="#habilidade">HABILIDADES</a>
                 <a href="#projetos">PROJETOS</a>
                 <a href="#contatos">CONTATOS</a>
-            </div>
+            </section>
 
-            <div id="profile">
+            <section class="profile">
                 <img src="./assets/profile.jpg" alt="">
                 <p>Evelyn</p>
-            </div>
+            </section>
 
-            <div id="sobre">
+            <section id="sobre" class="sobre">
                 <h1>SOBRE MIM</h1>
 
                 <p>Olá! me chamo Evelyn, sou desenvolvedora web com experiência em 
@@ -30,9 +30,9 @@
                 GitHub para versionamento de código e gerenciamento de projetos Sempre estou em busca de aprender 
                 mais e contribuir para soluções criativas.
                 </p>
-            </div>
+            </section>
 
-            <div id="habilidades">
+            <section id="habilidade" class="habilidades">
                 <h1>HABILIDADES</h1>
 
                 <li>HTML</li>
@@ -41,55 +41,55 @@
                 <li>NodeJS</li>
                 <li>Git</li>
                 <li>GitHub</li>
-            </div>
+            </section>
 
-            <div id="projetos">
+            <section id="projetos" class="projetos">
                 <h1>PROJETOS</h1>
+                <ul class="box">
+                    <li class="proje">
+                        <h3 class="h3">Clínica</h3>
+                        <a href="https://evelynbr24.github.io/clinica/"
+                        target="_blank">Ver Projeto</a>
+                    </li>
+                    <li class="proje">
+                        <h3>Landing Page</h3>
+                        <a href="https://evelynbr24.github.io/versao04/"
+                        target="_blank">Ver Projeto</a>
+                    </li>
+                    <li class="proje">
+                        <h3>Metas</h3>
+                        <a href="https://github.com/EvelynBR24/metas"
+                        target="_blank">Ver Projeto</a>
+                    </li>
+                    <li class="proje">
+                        <h3>Dev Links</h3>
+                        <a href="https://evelynbr24.github.io/DevLinks/"
+                        target="_blank">Ver Projeto</a>
+                    </li>
+                    <li class="proje">
+                        <h3>NOME</h3>
+                        <a href="#"
+                        target="_blank">Ver Projeto</a>
+                    </li>
+                    <li class="proje">
+                        <h3>NOME</h3>
+                        <a href="#"
+                        target="_blank">Ver Projeto</a>
+                    </li>
+                </ul>
+            </section>
 
-                <div id="box">
-                    <h2>App de metas</h2>
-                    <a 
-                    href="https://github.com/EvelynBR24/metas"
-                    target="_blank">
-                    clique aqui
-                    </a>
-                </div>
-
-                <div id="box">
-                    <h2>App de Metas</h2>
-                    <a 
-                    href="https://github.com/EvelynBR24/metas"
-                    target="_blank">
-                    clique aqui
-                    </a>
-                </div>
-
-                <div id="box">
-                    <h2>Dev Links</h2>
-                    <a 
-                    href="https://evelynbr24.github.io/DevLinks/"
-                    target="_blank">
-                    clique aqui
-                    </a>
-                </div>
-
-                <div id="box">
-                    <h2>Dev Links</h2>
-                    <a 
-                    href="https://evelynbr24.github.io/DevLinks/"
-                    target="_blank">
-                    clique aqui
-                    </a>
-                </div>
-            </div>
-
-            <div id="contatos">
+            <section id="contatos" class="contatos">
                 <h1>CONTATOS</h1>
                 <p>E-mail: evelynnbr24@gmail.com</p>
-                <p>WhatsApp: (98) 98426-4190</p>
-            </div>
+                <p>WhatsApp:
+                    <a href="https://wa.me/5598984264190?text=Olá!"
+                    target="_blank">(98) 98426-4190
+                    </a>
+                </p>
+            </section>
 
-            <div id="social">
+            <div class="social">
                 <a href="https://github.com/EvelynBR24" target="_blank">
                     <ion-icon name="logo-github"></ion-icon>
                 </a>
@@ -99,6 +99,9 @@
                 <a href="https://www.linkedin.com/in/evelyn-ramos-ba5114260/"
                 target="_blank">
                     <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://wa.me/5598984264190?text=Olá!" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
                 </a>
             </div>
 
